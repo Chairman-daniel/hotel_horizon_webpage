@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+}
+
+body{
+    position: relative;
+}
+
+.section-1{
+    height: 100vh;
+    background: linear-gradient(90deg, #f7f7f7 0% 7%, #f7f7f74d 70%, 
+    #f7f7f71a), url(img/hero.18172cf7.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    margin: 0 120px;
+}
+
+.section-1 nav{
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-1 nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.section-1 li{
+    cursor: pointer;
+}
+
+.nav-btn{
+    background: transparent;
+    color: orange;
+    border: 1px solid orange;
+    height: 50px;
+    width: 120px;
+    cursor: pointer;
+}
+
+/* SECTIONN ONE SECOND HALF */
+
+.section-1-second-half{
+    /* margin-top: -100px; */
+    height: 60vh;
+}
+
+.section-1-second-half h4{
+    color: rgb(30, 51, 68);
+}
+
+.section-1-second-half h1{
+    font-size: 45px;
+    margin-top: 7px;
+    color: rgb(30, 51, 68);
+}
+
+.section-1-second-half p{
+    font-size: 15px;
+    margin-top: 30px;
+    color: rgb(30, 51, 68);
+}
+
+/* SECTIONN ONE THIRD HALF */
+
+.section-1-third-half{
+    width: 40%;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-1-third-half option .select{
+    border: transparent;
+}
+
+.section-1-third-half ul{
+    list-style: none;
+}
+
+.section-1-third-half button{
+    font-size: 30px;
+}
+
+.button{
+    background-color: orange;
+    color: white;
+    border: 1px solid orange;
+    height: 60px;
+    width: 100px;
+    cursor: pointer;
+}
+
+/* SECTION ONE ENDS */
+
+.section-2{
+    height: 70vh;
+    background: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(30, 51, 68);;
+}
+
+.section-2 p{
+    font-size: 12px;
+}
+
+.section-2 h1{
+    font-size: 35px;
+}
+
+.section-2 p:nth-child(3){
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+
+.section-2-img{
+    background-image: url(img/about-img.51a6cfeb.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 60vh;
+}
+
+
+/* SECTION 2 ENDS */
+
+.section-3{
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(30, 51, 68);;
+}
+
+.section-3 h1{
+    font-size: 35px;
+}
+
+.section-3 p{
+    font-size: 14px;
+}
+
+.buttons{
+    display: flex;
+    gap: 30px;
+}
+
+.section-3 button:nth-child(1){
+    background-color: transparent;
+    color: rgb(30, 51, 68);
+}
+
+.section-3 button:nth-child(1):hover{
+    color: #fff;
+    background-color: rgb(30, 51, 68);
+    transition: 1s;
+}
+.section-3 button{
+    background-color: rgb(30, 51, 68);
+    border-radius: 100%;
+    border: transparent;
+    width: 60px;
+    font-weight: 900;
+    font-size: 20px;
+}
+/* SECTION 3 ENDS */
+
+.section-4{
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-4 aside{
+    background-image: url(img/room-2.0aad262a.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 24.5%;
+    height: 50vh;
+    position: relative;
+}
+
+.section-4 aside:nth-child(2){
+    background-image: url(img/room-3.0269df8b.jpg);
+}
+
+.section-4 aside:nth-child(3){
+    background-image: url(img/room-4.3f8e3b6b.jpg);
+}
+
+.section-4 aside:nth-child(4){
+    background-image: url(img/room-5.47244ee2.jpg);
+}
+
+.section-4-text{
+    background-color: rgb(30, 51, 68);;
+    margin-top: 15px;
+    height: 40vh;
+    width: 50vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    position: absolute;
+    right: 40%;
+    font-size: 14px;
+}
+
+/* SECTION 4 ENDS */
+
+.section-5{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.section-5 aside{
+    background: url(img/amenities-hero.6f5f5eab.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 55vh;
+}
+
+.section-5-text{
+    background-color: rgb(30, 51, 68);;
+    margin-top: 15px;
+    height: 60vh;
+    width: 60vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    position: absolute;
+    right: 10%;
+    font-size: 14px;
+}
+
+.section-5-text h4{
+    color: orangered;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.section-5-text p{
+    line-height: 20px;
+    font-size: 15px;
+    margin-top: -30px;
+}
+
+.section-5-text-ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-5-text-ul ul{
+    list-style-type: decimal ;
+}
+
+/* SECTION 5 ENDS */
+
+.section-6{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.section-6 .text{
+    font-size: 14px;
+    color: rgb(30, 51, 68);;
+}
+
+.h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+}
+
+.images article{
+    height: 50vh;
+    width: 33%;
+    background: url(img/room-5.47244ee2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.images article ul{
+    list-style: none;
+    color: #ffff;
+    margin: 40px 0;
+}
+.images article:nth-child(2){
+    background-image: url(img/room-4.3f8e3b6b.jpg);
+    margin-top: -40px;
+}
+
+
+.images article:nth-child(3){
+    background-image: url(img/room-3.0269df8b.jpg);
+}
+
+.images .button{
+    background-color: orangered;
+    border: transparent;
+    height: 40px;
+    width: 140px;
+    margin: 40px 0;
+}
+
+/* SECTION 6 ENDS */
+
+.section-7{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: rgb(30, 51, 68);
+}
+
+.section-7-text{
+    text-align: center;
+    font-size: 14px;
+}
+.section-7-staff{
+    display: flex;
+    justify-content: space-around;
+}
+
+.staff{
+    height: 50vh;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 13px;
+    box-shadow: 0 4px 16px #11111a0d, 0 8px 32px #11111a0d;
+}
+
+.staff img{
+    border-radius: 100%;
+}
+
+/* SECTION 7 ENDS */
+
+footer{
+    height: 25vh;
+    background-color: rgb(30, 51, 68);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 500;
+}
+
+footer .links ul{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+}
+
+footer .links ul li{
+    cursor: pointer;
+}
+
+footer span{
+    color: rgba(255, 255, 255, 0.363);
+    font-weight: 100;
+}
